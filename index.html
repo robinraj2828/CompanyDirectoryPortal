@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-div">
+    <h1>Company Directory Portal</h1>
+
+    <div class="Form">
+      <h2>Employee Registration Form</h2>
+      
+      <Form>
+        <label for="name">Full Name:</label>
+        <input type="text" name="employee name" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="employee email" id="email" required>
+
+        <label for="department">Department:</label>
+            <select>
+              <option value="IT">IT</option>
+              <option value="HR">HR</option>
+              <option value="Finance">Finance</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Others">Others</option>
+            </select>
+            
+            <label for="ID">Employee ID:</label>
+            <input type="number" name="employee id" id="ID" required>
+
+            <label for="photo">Profile Picture URL:</label>
+            <input type="URL input" name="employee picture" id="photo" required>
+
+            <input type="submit" value="Register Employee" style="background-color: rgb(0, 0, 255); color: white; padding-top: 10px; padding-bottom: 10px;">
+          </Form>
+        </div>
+
+
+        <div class="employee-list">
+          <h2>Employee List</h2>
+          <ol>
+            <li><a href="">Robin Raj - robin@gmail.com</a></li>
+            <hr>
+            <li><a href="">Nisha Rani - nisha@gmail.com</a></li>
+            <hr>
+          </ol>
+        </div>
+        
+        
+        <div class="employee-details">
+          <h2>Employee Details</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Department</th>
+                <th>Mobile Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Robin Raj</td>
+                <td>62029</td>
+                <td>IT</td>
+                <td>9764276581</td>
+              </tr>
+              
+              <tr>
+                <td>Nisha Rani</td>
+                <td>72500</td>
+                <td>HR</td>
+                <td>6206545431</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="map">
+          <h2>Company Location</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.198500690699!2d78.3874145746294!3d17.498035299609203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727248954428!5m2!1sen!2sin"  style="border:0; width: 100%; height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </body>
+</html>
