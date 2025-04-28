@@ -1,6 +1,6 @@
 # CompanyDirectoryPortal
 
-# Project Goal
+## Project Goal
 The goal is to build a Company Directory Portal using only HTML and CSS. It will feature:
 
 An Employee Registration Form to add new employees.
